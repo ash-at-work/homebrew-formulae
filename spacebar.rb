@@ -1,8 +1,8 @@
 class Spacebar < Formula
   desc "A stausbar for yabai tiling window manager."
   homepage "https://github.com/somdoron/spacebar"
-  url "https://github.com/somdoron/spacebar/releases/download/v0.2.0/spacebar-v0.2.0.tar.gz"
-  sha256 "aa18c654128e8c8d197c4bfff5ac94a0b884118abcb2251a8128fb38fac340dd"
+  url "https://github.com/somdoron/spacebar/releases/download/v0.3.0/spacebar-v0.3.0.tar.gz"
+  sha256 "cde2c1ae08161945b788f6dd7628e9f5cd5bdef28fb282369c8b4935e9611c70"
   head "https://github.com/somdoron/spacebar.git"
 
   depends_on :macos => :catalina
