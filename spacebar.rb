@@ -5,7 +5,7 @@ class Spacebar < Formula
   sha256 "cde2c1ae08161945b788f6dd7628e9f5cd5bdef28fb282369c8b4935e9611c70"
   head "https://github.com/somdoron/spacebar.git"
 
-  depends_on :macos => :catalina
+  depends_on :macos => :high_sierra
 
   def install
     (var/"log/spacebar").mkpath
