@@ -61,6 +61,6 @@ class Spacebar < Formula
   end
 
   test do
-    assert_match "somdoron-v#{version}", shell_output("#{bin}/somdoron --version")
+    assert_match "spacebar-v#{version}", shell_output("#{bin}/spacebar --version")
   end
 end
